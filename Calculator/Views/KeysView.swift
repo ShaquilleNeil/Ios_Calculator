@@ -40,7 +40,7 @@ struct KeysView: View {
                         self.changeColor.toggle()
                     }.overlay{
                         Text(displayValue)
-                            .font(.system(size: 100))
+                            .font(.system(size: 70))
                             .foregroundStyle(.black)
                     }
             }.padding()//end of hstack
@@ -104,7 +104,7 @@ struct KeysView: View {
                     result = runningValue * currentvALUE
                 case .divide:
                     //division by 0
-                    if currentvALUE == 0 {
+                    if currentvALUE == 0.0 {
                         self.displayValue = "Undefined"
                         return
                     }
