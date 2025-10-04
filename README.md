@@ -8,7 +8,10 @@ A simple calculator application built in **Swift** using **Xcode**. This project
 - Basic arithmetic operations: ➕ Addition, ➖ Subtraction, ✖️ Multiplication, ➗ Division  
 - Clear button to reset inputs  
 - Responsive and easy-to-use interface  
-- Built using **UIKit**  
+- Built using **UIKit**
+
+## Demo
+![Demo](https://github.com/ShaquilleNeil/Ios_Calculator/blob/main/demo_calc.png)
 
 ## 🛠️ Technologies Used  
 - Swift (Xcode project)  
